@@ -22,7 +22,7 @@ else // Insert category name and description into table
     $result = mysqli_query($dbc, $sql);
     if(!$result)
     {
-        echo 'Error' . mysqli_error();
+        echo 'Category name already exists. ' . mysqli_error();
     }
     else
     {
