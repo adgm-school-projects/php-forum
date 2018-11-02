@@ -6,8 +6,8 @@ The purpose of this project was to create a database-driven website.
 * Forum Category, Topic, and Post creation
 * Some error handling, although incomplete
 
-This project meets the requirements of using PHP and SQL to create a database-driven application but is functionally incomplete.
-Ways in which to improve it:
+*This project meets the requirements of using PHP and SQL to create a database-driven application but is functionally incomplete.*
+#### Ways in which to improve it:
 * Hashed user information storage
 * Error handling for posting empty form values
 * There is a bug which displays multiples of the same category on the home page when multiple topics are added to that category.
