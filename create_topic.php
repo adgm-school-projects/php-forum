@@ -70,7 +70,7 @@ else
 			$result = mysqli_query($dbc, $sql);
 			if(!$result)
 			{
-				echo 'An error occurred while inserting your data. Please try again later' . mysqli_error($dbc);
+				echo 'An error occurred while inserting your data. Please try again later. MySQLi Error: ' . mysqli_error($dbc);
 				$sql = "ROLLBACK;";
 				$result = mysqli_query($dbc, $sql);
 			}
